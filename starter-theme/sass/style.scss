@@ -9,14 +9,17 @@ License: GNU General Public License
 License URI: https://www.gnu.org/licenses/gpl.html
 */
 
+@import "settings";
+@import "normalize";
+
 @import "compass/typography";
 @import "compass/utilities";
 @import "compass/css3/pie";
 @import "compass/css3";
-@import "normalize";
-@import "typography";
-@import "forms";
-@import "icons";
+
+@include establish-baseline();
 
 body{
+	background-color: $color-white;
+	color: $color-black;
 }
