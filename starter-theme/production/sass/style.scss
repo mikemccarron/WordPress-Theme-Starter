@@ -12,12 +12,6 @@ License URI: https://www.gnu.org/licenses/gpl.html
 @import "settings";
 @import "normalize";
 
-@import "compass/typography";
-@import "compass/utilities";
-@import "compass/css3/pie";
-@import "compass/css3";
-
-@include establish-baseline();
 
 body{
 	background-color: $color-white;
