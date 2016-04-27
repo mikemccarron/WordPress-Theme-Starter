@@ -15,9 +15,10 @@
 	remove_action('wp_head', 'wp_oembed_add_host_js');
 	remove_action('wp_print_styles', 'print_emoji_styles');
 
-	wp_deregister_script('jquery');
-	wp_deregister_script('jquery-migrate');
-	wp_deregister_script('jquery-form');
-
+	if( !is_admin() ){
+		wp_deregister_script('jquery');
+		wp_deregister_script('jquery-migrate');
+		wp_deregister_script('jquery-form');
+	}
 
 ?>
