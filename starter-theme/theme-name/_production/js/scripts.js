@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 		sample();
 	};
 
-	function sample(){
-
-	}
+	this.message = function(){
+		window.loction.href = "#home";
+	};
 });

@@ -7,8 +7,6 @@
 		</header>
 
 		<p><?php _e('Nothing found for the requested page. Try a search instead?', 'blankslate'); ?></p>
-
-		<?php //get_search_form(); ?>
 	</article>
 </section>
 

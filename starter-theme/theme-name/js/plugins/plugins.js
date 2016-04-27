@@ -1,0 +1,6 @@
+var Class = function(){
+	this.init = function(){
+
+	}
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNpdGUuc2FtcGxlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoicGx1Z2lucy5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBDbGFzcyA9IGZ1bmN0aW9uKCl7XG5cdHRoaXMuaW5pdCA9IGZ1bmN0aW9uKCl7XG5cblx0fVxufSJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
