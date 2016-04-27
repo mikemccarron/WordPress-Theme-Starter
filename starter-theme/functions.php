@@ -24,6 +24,8 @@ function wptheme_theme_setup(){
 	// Custom Image Sizes
 	include('_includes/custom-image-sizes.php');
 
+	// Custom Fields
+	//include('_includes/acf-custom-fields.php');
 
 }
 
