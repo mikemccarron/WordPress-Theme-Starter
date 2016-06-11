@@ -1,6 +1,40 @@
-/* COLORS */
-
-$color-white: #fff;
-$color-black: #000;
+/* FUNCTIONS */
+@function calculateEm($base, $target){
+	@return ($target / $base) * 1em;
+}
 
 /* TYPE */
+$base-size: 16px;
+$base-font-multiplier: 0;
+$line-height: 1.4em;
+$letter-spacing-wide: 0.35em;
+
+$font-arial: "Arial", sans-serif;
+
+/* COLORS */
+
+$color-black: #000;
+$color-white: #fff;
+
+$color-transparent-black: rgba(0,0,0,0.5);
+
+/* BREAKPOINTS */
+$gutter-xsm: calculateEm($base-size, 10px);
+$gutter-sm: calculateEm($base-size, 20px);
+$gutter-md: calculateEm($base-size, 40px);
+$gutter-lg: calculateEm($base-size, 60px);
+
+$maxwidth: calculateEm($base-size, 1024px);
+
+$breakpoint-mobile-sm: calculateEm($base-size, 320px);
+$breakpoint-mobile-sm-half: calculateEm($base-size, 400px);
+$breakpoint-mobile-md: calculateEm($base-size, 480px);
+$breakpoint-mobile-lg: calculateEm($base-size, 640px);
+
+$breakpoint-tablet-sm: calculateEm($base-size, 768px);
+$breakpoint-tablet-md: calculateEm($base-size, 896px);
+$breakpoint-tablet-lg: calculateEm($base-size, 1024px);
+
+$breakpoint-desktop-sm: calculateEm($base-size, 1224px);
+$breakpoint-desktop-md: calculateEm($base-size, 1524px);
+$breakpoint-desktop-lg: calculateEm($base-size, 1824px);

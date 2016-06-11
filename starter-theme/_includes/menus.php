@@ -1,6 +1,6 @@
 <?php
-	register_nav_menu('nav-top', __('Navigation: Primary / Top', 'aichotelgroup') );
-	register_nav_menu('nav-bottom', __('Navigation: Secondary / Bottom', 'aichotelgroup') );
+	register_nav_menu('nav-top', __('Navigation: Primary / Top', 'wp-theme') );
+	register_nav_menu('nav-bottom', __('Navigation: Secondary / Bottom', 'wp-theme') );
 
 	function topNav(){
 		wp_nav_menu(

@@ -13,40 +13,10 @@
 	function aic_tinycme_styles($init_array) {
 		$style_formats = array(
 			array(
-				'title' => 'Smaller Sub Head, Spaced Out',
-				'inline' => 'span',
-				'classes' => 'text-sub-head-spaced',
-				'wrapper' => false,
-			),
-			array(
-				'title' => 'Spaced Out',
-				'inline' => 'span',
-				'classes' => 'text-spaced',
-				'wrapper' => false,
-			),
-			array(
 				'title' => 'ALLCAPS',
 				'inline' => 'span',
 				'classes' => 'allcaps',
 				'wrapper' => false,
-			),
-			array(
-				'title' => 'ALLCAPS: Block w/ margin-top',
-				'inline' => 'span',
-				'classes' => 'allcaps-block',
-				'wrapper' => false,
-			),
-			array(
-				'title' => 'Coming Soon Header',
-				'inline' => 'span',
-				'classes' => 'text-coming-soon',
-				'wrapper' => true,
-			),
-			array(
-				'title' => 'Small',
-				'inline' => 'small',
-				'classes' => '',
-				'wrapper' => true,
 			)
 
 		);
