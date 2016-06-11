@@ -21,13 +21,20 @@ function wptheme_theme_setup(){
 	// Register JavaScript
 	include('_includes/scripts.php');
 
-	// Custom Image Sizes
-	include('_includes/custom-image-sizes.php');
-
 	// Custom Fields
 	//include('_includes/acf-custom-fields.php');
 
 }
+
+// Custom Image Sizes
+include('_includes/custom-image-sizes.php');
+
+// Custom TinyMCE Fields
+include('_includes/custom_tinymcs_formats.php');
+include('_includes/custom_tinymcs_buttons.php');
+
+// Custom Post Types
+include('_includes/custom-post-types.php');
 
 add_action('init', 'wptheme_initialize');
 add_action('after_setup_theme', 'wptheme_theme_setup');
