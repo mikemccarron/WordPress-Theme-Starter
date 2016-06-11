@@ -6,13 +6,9 @@
 			<?php printf( __( 'Search Results for: %s', 'blankslate' ), '<span>' . get_search_query()  . '</span>' ); ?>
 		</h1>
 
-		<?php get_template_part( 'nav', 'above' ); ?>
-
 		<?php while ( have_posts() ) : the_post() ?>
 			<?php get_template_part( 'entry' ); ?>
 		<?php endwhile; ?>
-
-		<?php get_template_part( 'nav', 'below' ); ?>
 
 	<?php else : ?>
 
@@ -27,5 +23,4 @@
 	<?php endif; ?>
 </div>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

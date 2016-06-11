@@ -24,6 +24,5 @@
 
 
 <?php
-	get_template_part( 'nav', 'social' );
 	get_template_part( 'nav' );
 ?>
