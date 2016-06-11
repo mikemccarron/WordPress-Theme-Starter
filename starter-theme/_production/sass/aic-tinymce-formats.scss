@@ -1,0 +1,42 @@
+// 00 Base
+@import "00-base/mixins";
+@import "00-base/settings";
+@import "00-base/normalize";
+
+
+#tinymce{
+	font:{
+		family: $font-brandon;
+	}
+
+
+	.text-sub-head-spaced{
+		display: block;
+		line-height: 1;
+		letter-spacing: 0.45em;
+		font:{
+			size: 0.8em;
+			weight: 500;
+		}
+	}
+
+	.text-spaced{
+		letter-spacing: 0.45em;
+	}
+
+	.allcaps-block{
+		display: block;
+		margin-top: 20px;
+		text-transform: uppercase;
+	}
+
+	.allcaps{
+		text-transform: uppercase;
+	}
+
+	.text-coming-soon{
+		display: block;
+		color: $color-blue;
+		text-transform: uppercase;
+	}
+}
