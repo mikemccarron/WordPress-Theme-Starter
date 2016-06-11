@@ -1,25 +1,25 @@
 {
-  "name": "WP-Start-Theme",
-  "version": "1.5.0",
-  "description": "WP-Start-Theme",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:mikemccarron/Wordpress-Starter-Theme.git"
-  },
-  "devDependencies": {
-    "gulp": "*",
-    "gulp-autoprefixer": "*",
-    "gulp-concat": "*",
-    "gulp-csso": "*",
-    "gulp-imagemin": "*",
-    "gulp-jshint": "*",
-    "gulp-notify": "*",
-    "gulp-plumber": "*",
-    "gulp-pngmin": "*",
-    "gulp-sass": "*",
-    "gulp-uglify": "*",
-    "gulp-sourcemaps": "*",
-    "jshint": "^2.9.2",
-    "jshint-stylish": "*"
-  }
+	"name": "WP-Start-Theme",
+		"version": "1.5.0",
+		"description": "WP-Start-Theme",
+		"repository": {
+		"type": "git",
+		"url": "git@github.com:mikemccarron/Wordpress-Starter-Theme.git"
+	},
+	"devDependencies": {
+		"gulp": "*",
+		"gulp-autoprefixer": "*",
+		"gulp-concat": "*",
+		"gulp-csso": "*",
+		"gulp-imagemin": "*",
+		"gulp-jshint": "*",
+		"gulp-notify": "*",
+		"gulp-plumber": "*",
+		"gulp-pngmin": "*",
+		"gulp-sass": "*",
+		"gulp-uglify": "*",
+		"gulp-sourcemaps": "*",
+		"jshint": "^2.9.2",
+		"jshint-stylish": "*"
+	}
 }
