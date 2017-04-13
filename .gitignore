@@ -7,3 +7,4 @@ starter-theme/sass/.DS_Store
 starter-theme/theme-name/_production/node_modules/
 .DS_Store
 starter-theme/theme-name/_production/.DS_Store
+node_modules/
