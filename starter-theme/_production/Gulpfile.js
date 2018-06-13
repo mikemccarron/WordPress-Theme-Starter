@@ -27,7 +27,7 @@ Settings
 */
 var basePaths = {
 	prod: "",
-	dist: "../"
+	dist: "../dist/wp-content/themes/_themename_/"
 }
 
 var settings = {
