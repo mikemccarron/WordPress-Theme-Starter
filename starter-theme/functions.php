@@ -14,6 +14,8 @@ function wptheme_initialize(){
 	include('_includes/admin.php');
 }
 
+add_action('init', 'wptheme_initialize');
+
 function wptheme_theme_setup(){
 	// Register Menus
 	include('_includes/menus.php');
@@ -22,9 +24,10 @@ function wptheme_theme_setup(){
 	include('_includes/scripts.php');
 
 	// Custom Fields
-	//include('_includes/acf-custom-fields.php');
-
+	include('_includes/acf-custom-fields.php');
 }
+
+add_action('after_setup_theme', 'wptheme_theme_setup');
 
 // Custom Image Sizes
 include('_includes/custom-image-sizes.php');
@@ -36,7 +39,5 @@ include('_includes/custom_tinymcs_buttons.php');
 // Custom Post Types
 include('_includes/custom-post-types.php');
 
-add_action('init', 'wptheme_initialize');
-add_action('after_setup_theme', 'wptheme_theme_setup');
 
 ?>

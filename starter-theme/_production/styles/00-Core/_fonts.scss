@@ -5,3 +5,19 @@ font families.
 $font-primary: 'Helvetica';
 $font-secondary: 'Arial';
 $font-tertiary: 'Georgia';
+
+%font-primary{
+	font:{
+		family: $font-primary;
+	}
+}
+%font-secondary{
+	font:{
+		family: $font-secondary;
+	}
+}
+%font-tertiary{
+	font:{
+		family: $font-tertiary;
+	}
+}

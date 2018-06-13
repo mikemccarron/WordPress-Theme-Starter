@@ -1,0 +1,93 @@
+/*
+ * Remove text-shadow in selection highlight
+ ======================================================= */
+
+::-moz-selection {
+	background-color: transparentize($color-white, 0);
+	text-shadow: none;
+}
+
+::selection {
+	background-color: transparentize($color-white, 0);
+	text-shadow: none;
+}
+
+/*
+ * Helpers
+ ======================================================= */
+
+.hidden {
+	display: none !important;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+/*
+https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*/
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap; /* 1 */
+}
+
+/*
+ * Hide for screen sizes
+ ========================================================================== */
+.hide-for-desktop{
+	display: block;
+
+	@include for-size('desktop-up'){
+		display: none;
+	}
+}
+
+.show-for-desktop{
+	display: none;
+
+	@include for-size('desktop-up'){
+		display: block;
+	}
+}
+
+.hide-for-tablet{
+	display: block;
+
+	@include for-size('tablet-portrait-up'){
+		display: none;
+	}
+}
+
+.show-for-tablet{
+	display: none;
+
+	@include for-size('tablet-portrait-up'){
+		display: block;
+	}
+}
+
+.hide-for-mobile{
+	display: block;
+
+	@include for-size('phone-only'){
+		display: none;
+	}
+}
+
+.show-for-mobile{
+	display: none;
+
+	@include for-size('phone-only'){
+		display: block;
+	}
+}

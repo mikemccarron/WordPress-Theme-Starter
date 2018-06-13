@@ -1,14 +1,14 @@
 <?php
-	register_nav_menu('nav-top', __('Navigation: Primary / Top', 'wp-theme') );
-	register_nav_menu('nav-bottom', __('Navigation: Secondary / Bottom', 'wp-theme') );
+	register_nav_menu('nav-top', __('Nav: Primary', 'wp-theme') );
+	register_nav_menu('nav-bottom', __('Nav: Secondary', 'wp-theme') );
 
 	function topNav(){
 		wp_nav_menu(
 			array(
 				'theme_location'  => 'nav-top',
 				'menu'            => '',
-				'container'       => 'div',
-				'container_class' => 'menu-{menu slug}-container',
+				'container'       => 'nav',
+				'container_class' => 'menu-container',
 				'container_id'    => '',
 				'menu_class'      => 'menu',
 				'menu_id'         => '',
@@ -30,8 +30,8 @@
 			array(
 				'theme_location'  => 'nav-bottom',
 				'menu'            => '',
-				'container'       => 'div',
-				'container_class' => 'menu-{menu slug}-container',
+				'container'       => 'nav',
+				'container_class' => 'menu-container',
 				'container_id'    => '',
 				'menu_class'      => 'menu',
 				'menu_id'         => '',

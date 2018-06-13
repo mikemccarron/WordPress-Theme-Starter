@@ -19,15 +19,6 @@ var gulp 			= require('gulp'),
 
 	sass 		= require('gulp-sass'),
 	prefixer 	= require('gulp-autoprefixer'),
-	// pngmin 		= require('gulp-pngmin'),
-	// pngquant 	= require('imagemin-pngquant'),
-	// imagemin 	= require('gulp-imagemin'),
-	// svgmin 		= require('gulp-svgmin'),
-	// svgstore 	= require('gulp-svgstore'),
-
-	// path 		= require('path'),
-	// rename 		= require('gulp-rename'),
-	// ftp 		= require('vinyl-ftp'),
 
 	notify 		= require("gulp-notify");
 
