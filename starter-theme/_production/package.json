@@ -30,6 +30,6 @@
 	"dependencies": {
 		"baguettebox.js": "^1.10.0",
 		"slick-carousel": "^1.8.1",
-		"vue": "^2.5.16",
+		"vue": "^2.5.16"
 	}
 }
