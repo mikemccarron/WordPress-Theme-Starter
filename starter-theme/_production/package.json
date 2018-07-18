@@ -1,8 +1,8 @@
 {
-	"name": "",
+	"name": "my-project",
 	"version": "1.0.0",
 	"license": "MIT",
-	"repository": "",
+	"repository": "https://github.com/mikemccarron/Wordpress-Starter-Theme",
 	"scripts": {
 		"build": "babel src -d lib"
 	},
@@ -19,13 +19,9 @@
 		"gulp-jshint": "^2.1.0",
 		"gulp-notify": "^3.2.0",
 		"gulp-plumber": "^1.2.0",
-
-		"jshint": "^2.9.4",
 		"gulp-sass": "^4.0.1",
 		"gulp-sourcemaps": "^2.4.1",
 		"gulp-svg-sprites": "^4.1.2",
-		"main-bower-files": "^2.13.1",
-		"babel-core": "^6.24.1",
 		"gulp-uglify": "^3.0.0",
 		"jshint": "^2.9.5"
 	},
