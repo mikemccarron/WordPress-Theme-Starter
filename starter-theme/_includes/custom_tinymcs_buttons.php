@@ -11,7 +11,7 @@ function register_tinymce_buttons( $buttons ){
 	return $buttons;
 }
 
-function aichotelgroup_posts_button() {
+function wp_posts_button() {
 	if ( ! current_user_can('edit_posts') && ! current_user_can('edit_pages') ) {
 		return;
 	}
@@ -22,7 +22,7 @@ function aichotelgroup_posts_button() {
 	}
 }
 
-add_action('init', 'aichotelgroup_posts_button');
+add_action('init', 'wp_posts_button');
 
 
 // Pull Quote Shortcode

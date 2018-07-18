@@ -23,7 +23,7 @@ Settings
 var localhost = "http://localhost/";
 var basePaths = {
 	prod: "",
-	dist: "../dist/",
+	dist: "../dist/wp-content/themes/_themename_/"
 	distroot: "../dist/"
 }
 
@@ -43,6 +43,7 @@ var settings = {
 		dist: basePaths.dist + 'assets/'
 	}
 }
+
 
 gulp.task('default', ['watch']);
 
